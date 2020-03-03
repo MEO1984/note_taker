@@ -6,6 +6,7 @@ This is a note taking application that can be used to write, save, and delete no
 The goal of this application is for users to be able to better organize their thoughts and keep track of tasks that need to be completed.
 
 # How it Works
+![note_taker](https://github.com/MEO1984/note_taker/blob/master/Example.gif)
 The application runs on a Heroku server. 
 
 The application has a JSON file on the backend that is used to store and retrieve notes using the fs npm module. 
