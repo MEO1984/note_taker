@@ -20,7 +20,7 @@ Each note is assigned a unique ID using the .forEach() method and adding 1 to th
 
 DELETE route receives a query parameter that contains the id of the note that needs to be deleted. Using the .filter() method, a new array is created that contains all the notes that do not have the "to be deleted" ID. The array is then saved to the JSON file using npm fs.writeFileSync and the response is then returned as JSON. 
 
-# Installation
+# Local Installation
 -Open server.js in terminal
 -Run command: npm install
 -Run command: node server.js
